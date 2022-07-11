@@ -18,7 +18,7 @@
 
 /*base styles*/
 .container {
-  width: 1200;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -73,6 +73,10 @@ body {
 }
 
 /*reset styles*/
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -395,8 +399,7 @@ img {
 
 .portfolio-item {
   flex-basis: calc((100% - 30px * 2) / 3);
-  flex-basis: 370px;
-  max-width: 370px;
+
 }
 
 .portfolio-img-title {
@@ -423,5 +426,5 @@ img {
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
-  width: 370px;
+ 
 }
